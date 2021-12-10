@@ -1,0 +1,127 @@
+/* styles:app/client.imba */
+body {
+  background: hsla(240.00, 3.70%, 15.88%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+html {
+  font-family: var(--font-mono,Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+.dy_af_.dy_af {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header.dy_af {
+  width: 100%;
+  height: 20px;
+  display: flex;
+  flex-direction: center;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  gap: 20px;
+  --u_rg: 20px;
+  --u_cg: 20px;
+}
+.header *.dy_af {
+  flex: 1;
+  text-align: center;
+}
+.score.dy_af {
+  color: hsla(213.33, 96.92%, 87.25%, 100%);
+}
+.start.dy_af {
+  color: hsla(213.33, 96.92%, 87.25%, 100%);
+  cursor: pointer;
+}
+.timers.dy_af {
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  --u_rg: 20px;
+  --u_cg: 20px;
+}
+.timer.dy_af {
+  width: 100px;
+  height: 100px;
+  background: hsla(224.28, 76.33%, 48.04%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: hsla(213.33, 96.92%, 87.25%, 100%);
+  border-radius: 20px;
+  border: 1px solid hsla(187.94, 85.71%, 53.33%, 100%);
+  cursor: pointer;
+}
+.settings.dy_af {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  --u_rg: 20px;
+  --u_cg: 20px;
+}
+.setting.dy_af {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.setting-name.dy_af {
+  width: 100%;
+  color: hsla(213.33, 96.92%, 87.25%, 100%);
+  flex: 1;
+}
+.setting input.dy_af {
+  flex: 1;
+}
+.dy-an:not(#_):not(#_) {
+  font-size: 25px;
+}
+.dy-an:not(#_):not(#_) {
+  color: hsla(142.09, 70.56%, 45.29%, 100%);
+}
+.dy_afao:not(#_):not(#_) {
+  color: hsla(0.00, 84.24%, 60.20%, 100%);
+}
+.dy-aw:not(#_):not(#_) {
+  width: 100%;
+}
+.dy-ba:not(#_):not(#_) {
+  width: 100%;
+}
+.dy-be:not(#_):not(#_) {
+  width: 100%;
+}
+.dy-bi:not(#_):not(#_) {
+  width: 100%;
+}
+.dy-bm:not(#_):not(#_) {
+  width: 100%;
+}
+.dy-bq:not(#_):not(#_) {
+  width: 100%;
+}
+app-tag {
+  display: block;
+}
+/* chunk:end */
